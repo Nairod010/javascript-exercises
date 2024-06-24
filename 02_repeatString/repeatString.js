@@ -1,6 +1,6 @@
 const repeatString = function(word, times) {
     let result = ""
-    if (times < 0) return "ERROR";
+    if (times < 0) return "ERROR"}
     for (i = 1; i <= times; i++) {
         result += word;
     };
